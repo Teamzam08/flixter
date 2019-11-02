@@ -1,4 +1,4 @@
-giyt class LessonsController < ApplicationController
+class LessonsController < ApplicationController
   before_action :authenticate_user!
   before_action :require_authorized_for_current_course, only: [:show]
   
@@ -15,7 +15,7 @@ giyt class LessonsController < ApplicationController
 
   def require_authorized_for_current_course
     if !current_user.enrolled_in?(current_lesson.section.course)
-      redirect_to course_path(current_lesson.section.course), alert: 'You need to enroll!'
+      redirect_to course_path(current_lesson.section.course), alert: 'YOU NEED TO ENROLL FIRST!!!!'
     end
   end
 
