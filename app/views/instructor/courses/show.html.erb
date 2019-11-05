@@ -51,10 +51,10 @@ $(function() {
       <li data-update-url="<%= instructor_section_path section %>" class="section-li">
         <span class="fa fa-ellipsis-v"></span>
         <%= section.title %>
-<!-- Button trigger modal -->
-   <button type="button" class="btn btn-primary btn-lg float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
-      Add a new Lesson
-   </button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary btn-lg float-right new-lesson-button" data-toggle="modal" data-target="#newLessonModal" data-lesson-url="<%= instructor_section_lessons_path(section) %>">
+              Add a new Lesson
+          </button>
         <br class="clr" />
         <br class="clr" />
         <ul class="lessons">
@@ -84,6 +84,8 @@ $(function() {
   </ul>
 
 </div>
+
+
 
 
 
