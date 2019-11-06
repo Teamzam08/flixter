@@ -56,7 +56,7 @@
       <div class="container">
     <div class="row">
       <div class="col-12 col-sm-3">
-        <b>Teachers</b>
+        <b>Trainers</b>
         <br />
         <%= link_to 'Teach a Course', new_instructor_course_path %>
         <br />
@@ -65,9 +65,9 @@
       <div class="col-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
+        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Careers', '#' %>
+        <%= link_to 'Careers', careers_path %>
         <br />
         <%= link_to 'Privacy Policy', privacy_path %>
       </div>
@@ -84,13 +84,15 @@
   		<b>Social</b>
 		  <br />
   		<br />
-  		<%= link_to 'http://github.com/Teamzam08' do %>
+  		<%= link_to 'https://github.com/Teamzam08' do %>
     		<span class="fa fa-github-square fa-2x social-button"></span>
   		<% end %>
-  		<span class="fa fa-facebook-square fa-2x social-button"></span>
+  		<%= link_to 'http://facebook.com/adryan.hawkins' do %>
+  			<span class="fa fa-facebook-square fa-2x social-button"></span>
+  		<% end %>
   		<span class="fa fa-twitter-square fa-2x social-button"></span>
 			</div>
-    </div>   
+     </div>   
      </div>
     </div>
   

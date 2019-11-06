@@ -10,11 +10,11 @@
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
-  color: #03D0E6;
+  color: #EC057A;
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background: image_url('ring.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,13 +25,13 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
     margin: 0;
-    font-color: #03D0E6;
+    font-color: #EC057A;
 }
 
 
 .frosty {
-    background: rgba(0, 0, 0, 0.3);
-    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    color: #FB58AB;
 }
 
 .frosty h1 {
@@ -48,7 +48,9 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .btn {
     border-radius: 0;
+    background-color: #FB58AB;
 }
+
 
 .feature {
     width: 100%;
@@ -65,7 +67,7 @@ body {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: grey;
+  background: #515050;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   padding: 10px;
@@ -73,17 +75,17 @@ body {
 
 .booyah-box h3, ,booyah-box h2 {
   margin: 10px;
-  color: #03D0E6;
+  color: white;
   text-align: center;
 }
 
 p {
-	color: white;
+	color: #FB58AB;
 	text-align: center;
 }
 
 h2 {
-	color: #03D0E6;
+	color: white;
 }
 
 .help-block {
