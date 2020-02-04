@@ -10,4 +10,4 @@ Users are able to:
 * reorganize their sections/lessons
 * enroll in free courses or pay through stripe
 
-# https://flixter-adryanhawkins.herokuapp.com/
+https://flixter-adryanhawkins.herokuapp.com/
