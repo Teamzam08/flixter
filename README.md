@@ -1,4 +1,4 @@
-FLIXTER
+# FLIXTER
 
 Flixter is a video hosting app that allows users to both create and enroll in instructional lessons.
 
@@ -10,4 +10,4 @@ Users are able to:
 * reorganize their sections/lessons
 * enroll in free courses or pay through stripe
 
-https://flixter-adryanhawkins.herokuapp.com/
+# https://flixter-adryanhawkins.herokuapp.com/
