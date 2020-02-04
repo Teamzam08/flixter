@@ -1,4 +1,4 @@
-
+FLIXTER
 
 Flixter is a video hosting app that allows users to both create and enroll in instructional lessons.
 
