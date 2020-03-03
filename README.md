@@ -10,4 +10,13 @@ Users are able to:
 * reorganize their sections/lessons
 * enroll in free courses or pay through stripe
 
+Skills:
+
+* HTML
+* CSS
+* RUBY
+* RAILS
+* ALGORITHMS
+* JAVASCRIPT
+
 https://flixter-adryanhawkins.herokuapp.com/
